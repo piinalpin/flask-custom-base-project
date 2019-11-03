@@ -28,7 +28,7 @@ These instructions will get you a copy of the project up and running on your loc
                                'created_at': datetime.today(),
                                'created_by': 0,
                                'username': '<CHANGE_TO_YOUR_USERNAME>',
-                               'password': '<CHANGE_TO_YOUR_HASH_PASSWORD>',
+                               'password': '<CHANGE_TO_YOUR_HASH_PASSWORD_BASE64>',
                                'email': '<CHANGE_TO_YOUR_EMAIL>',
                                'full_name': '<CHANGE_TO_YOUR_NAME>',
                                'enabled': True,
