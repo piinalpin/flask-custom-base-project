@@ -1,4 +1,6 @@
 # Flask Custom Base Project
+![build-status](https://travis-ci.org/piinalpin/flask-custom-base-project.svg?branch=master)
+
 Create base project or frame for new project Flask with Authorization User
 
 ## Getting Started
