@@ -39,7 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
                            }
                        ])
     ```
-4. Update `core/config/DatabaseConfig.py` with your database.
+4. Update `src/core/config/DatabaseConfig.py` with your database.
 4. Upgrade your migration into MySQL Database `flask db upgrade`
 5. Run the application `python Application.py` for debug or `flask run` for deployment.
 
