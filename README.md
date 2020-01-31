@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Migrate the database, this project using MySQL Database. `flask db init && flask db migrate`
 3. Edit first migration file, add following codes then call `seed_data()` into `def upgrade():`
     ```Python
+    from datetime import datetime
     def seed_data():
         app_user = sa.sql.table('app_user',
                                 sa.Column('id', sa.Integer()),
@@ -36,6 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
                            }
                        ])
     ```
+4. Update `core/config/DatabaseConfig.py` with your database.
 4. Upgrade your migration into MySQL Database `flask db upgrade`
 5. Run the application `python Application.py` for debug or `flask run` for deployment.
 
